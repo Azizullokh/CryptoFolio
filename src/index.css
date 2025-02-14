@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@layer components {
+    .hero {
+        background-image: url('./images/backg.jpg');
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
