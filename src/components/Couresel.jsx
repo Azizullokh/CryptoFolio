@@ -13,7 +13,7 @@ function Couresel() {
   useEffect(() => {
     https
       .get(
-        `/markets?vs_currency=USD&order=gecko_desc&per_page=10&page=1&sparkline=false&price_change_percentage=24h`
+        `/markets?vs_currency=USD&order=gecko_desc&per_page=100&page=1&sparkline=false&price_change_percentage=24h`
       )
       .then((response) => {
         setCryptos(response.data);
